@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92983907-0F00-4E73-AE9D-DDE09113C9FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>orataapps.My.MyApplication</StartupObject>
+    <RootNamespace>orataapps</RootNamespace>
+    <AssemblyName>C++ E-Learning</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>C++ E-Learning.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>C++ E-Learning.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Martz90-Circle-Books.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Materi\Dasar\Input &amp; Output\Cin.Designer.vb">
+      <DependentUpon>Cin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Input &amp; Output\Cin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Dasar\Input &amp; Output\ContohInputOutput.Designer.vb">
+      <DependentUpon>ContohInputOutput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Input &amp; Output\ContohInputOutput.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Dasar\Input &amp; Output\Cout.Designer.vb">
+      <DependentUpon>Cout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Input &amp; Output\Cout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Dasar\Struktur C++\ContohStruktur.Designer.vb">
+      <DependentUpon>ContohStruktur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Struktur C++\ContohStruktur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Dasar\Struktur C++\FileHeader.Designer.vb">
+      <DependentUpon>FileHeader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Struktur C++\FileHeader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Dasar\Struktur C++\DefinisinDeklarasi.Designer.vb">
+      <DependentUpon>DefinisinDeklarasi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Struktur C++\DefinisinDeklarasi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Dasar\Struktur C++\PengertianCompiler.Designer.vb">
+      <DependentUpon>PengertianCompiler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Struktur C++\PengertianCompiler.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Dasar\Tipedata\PenjelasanBool.Designer.vb">
+      <DependentUpon>PenjelasanBool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Tipedata\PenjelasanBool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Dasar\Tipedata\PenjelasanChar.Designer.vb">
+      <DependentUpon>PenjelasanChar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Tipedata\PenjelasanChar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Dasar\Tipedata\Penjelasandouble.Designer.vb">
+      <DependentUpon>Penjelasandouble.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Tipedata\Penjelasandouble.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Dasar\Tipedata\PenjelasanFloat.Designer.vb">
+      <DependentUpon>PenjelasanFloat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Tipedata\PenjelasanFloat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Dasar\Tipedata\PenjelasanInteger.Designer.vb">
+      <DependentUpon>PenjelasanInteger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Tipedata\PenjelasanInteger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Dasar\Tipedata\PenjelasanString.Designer.vb">
+      <DependentUpon>PenjelasanString.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Tipedata\PenjelasanString.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Lanjut\Menu Lanjut.Designer.vb">
+      <DependentUpon>Menu Lanjut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Lanjut\Menu Lanjut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Percabangan\MenuPercabangan.Designer.vb">
+      <DependentUpon>MenuPercabangan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Percabangan\MenuPercabangan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Percabangan\Penjelasan If\If2kondisi.Designer.vb">
+      <DependentUpon>If2kondisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Percabangan\Penjelasan If\If2kondisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Percabangan\Penjelasan If\iflebih2.Designer.vb">
+      <DependentUpon>iflebih2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Percabangan\Penjelasan If\iflebih2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Perulangan\compilefor.Designer.vb">
+      <DependentUpon>compilefor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Perulangan\compilefor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Perulangan\Menu Perulangan.Designer.vb">
+      <DependentUpon>Menu Perulangan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Perulangan\Menu Perulangan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pengaturan.Designer.vb">
+      <DependentUpon>Pengaturan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pengaturan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Dasar\Struktur C++\Komentar.Designer.vb">
+      <DependentUpon>Komentar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Struktur C++\Komentar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profil.Designer.vb">
+      <DependentUpon>Profil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu Utama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu Utama.Designer.vb">
+      <DependentUpon>Menu Utama.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu Tentang.Designer.vb">
+      <DependentUpon>Menu Tentang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu Tentang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Materi\Dasar\Menu Dasar.Designer.vb">
+      <DependentUpon>Menu Dasar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Materi\Dasar\Menu Dasar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Materi\Dasar\Input &amp; Output\Cin.resx">
+      <DependentUpon>Cin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Dasar\Input &amp; Output\ContohInputOutput.resx">
+      <DependentUpon>ContohInputOutput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Dasar\Input &amp; Output\Cout.resx">
+      <DependentUpon>Cout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Dasar\Struktur C++\ContohStruktur.resx">
+      <DependentUpon>ContohStruktur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Dasar\Struktur C++\fileheader.resx">
+      <DependentUpon>FileHeader.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Dasar\Struktur C++\DefinisinDeklarasi.resx">
+      <DependentUpon>DefinisinDeklarasi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Dasar\Struktur C++\PengertianCompiler.resx">
+      <DependentUpon>PengertianCompiler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Dasar\Tipedata\PenjelasanBool.resx">
+      <DependentUpon>PenjelasanBool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Dasar\Tipedata\PenjelasanChar.resx">
+      <DependentUpon>PenjelasanChar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Dasar\Tipedata\Penjelasandouble.resx">
+      <DependentUpon>Penjelasandouble.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Dasar\Tipedata\PenjelasanFloat.resx">
+      <DependentUpon>PenjelasanFloat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Dasar\Tipedata\PenjelasanInteger.resx">
+      <DependentUpon>PenjelasanInteger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Dasar\Tipedata\PenjelasanString.resx">
+      <DependentUpon>PenjelasanString.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Lanjut\Menu Lanjut.resx">
+      <DependentUpon>Menu Lanjut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Percabangan\MenuPercabangan.resx">
+      <DependentUpon>MenuPercabangan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Percabangan\Penjelasan If\If2kondisi.resx">
+      <DependentUpon>If2kondisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Percabangan\Penjelasan If\iflebih2.resx">
+      <DependentUpon>iflebih2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Perulangan\compilefor.resx">
+      <DependentUpon>compilefor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Perulangan\Menu Perulangan.resx">
+      <DependentUpon>Menu Perulangan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pengaturan.resx">
+      <DependentUpon>Pengaturan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Dasar\Struktur C++\Komentar.resx">
+      <DependentUpon>Komentar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu Utama.resx">
+      <DependentUpon>Menu Utama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu Tentang.resx">
+      <DependentUpon>Menu Tentang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Materi\Dasar\Menu Dasar.resx">
+      <DependentUpon>Menu Dasar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profil.resx">
+      <DependentUpon>Profil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Martz90-Circle-Books.ico" />
+    <None Include="Resources\Top-Cheap-2016-Game-Watch-Dogs-2-WD2-Marcus-Holloway-Wrench-Cosplay-Face-font-b-Mask - Copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lib\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
